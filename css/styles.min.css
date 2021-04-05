@@ -58,8 +58,8 @@ h5 {
 }
 .btn-white:hover,
 .btn-white:focus {
-  color: #770f05;
-  border-color: #770f05;
+  color: #FE828C;
+  border-color: #FE828C;
 }
 .btn-fill {
   color: #fff;
@@ -420,7 +420,7 @@ header ul.primary-nav li a {
   padding-right: 25px;
 }
 header ul.primary-nav li a:hover {
-  color: #770f05;
+  color: #FE828C;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -432,7 +432,7 @@ header ul.member-actions li a {
   color: #fff;
 }
 header ul.member-actions li a:hover {
-  color: #770f05;
+  color: #FE828C;
 }
 header .header-nav {
   display: inline-block;
@@ -918,4 +918,15 @@ body.modal-open {
 }
 .modal-body {
   padding: 25px;
+}
+table, th, td {
+  border: 1px solid #770f05;
+  border-collapse: collapse;
+}
+/* td{
+  width: 50%;
+} */
+th, td {
+  padding: 15px;
+  text-align: left;
 }
