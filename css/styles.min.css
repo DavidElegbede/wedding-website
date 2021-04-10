@@ -344,7 +344,7 @@ section .header {
 }
 .hero {
   min-height: 750px;
-  background: url("../img/ayomi-kiss-crop.png") center center;
+  background: url("../img/ayomi-kiss-crop-reduced.png") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
